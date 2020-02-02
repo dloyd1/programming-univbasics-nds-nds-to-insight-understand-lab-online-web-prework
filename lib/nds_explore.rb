@@ -9,6 +9,6 @@ end
 
 def print_first_directors_movie_titles
 new_array = Array.new 
-  directors_database[]
+new_array = directors_database[0][:movies]
 new_array
 end
