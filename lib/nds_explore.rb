@@ -8,5 +8,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database.each { |n| n == ""
+new_array = Array.new 
+  directors_database.each { |n| 
+    if n == "Spielberg"
+      new_array << n
+
 end
