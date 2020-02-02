@@ -12,5 +12,7 @@ new_array = Array.new
   directors_database.each { |n| 
     if n == "Spielberg"
       new_array << n
-
+    end
+  }
+new_array
 end
