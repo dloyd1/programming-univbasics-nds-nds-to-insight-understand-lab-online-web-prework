@@ -9,10 +9,6 @@ end
 
 def print_first_directors_movie_titles
 new_array = Array.new 
-  directors_database.each { |n| 
-    if n == "Spielberg"
-      new_array << n
-    end
-  }
+  directors_database[]
 new_array
 end
