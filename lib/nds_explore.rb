@@ -8,9 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-new_array = Array.new 
   directors_database[0][:movies][:titles].each { |n|
-  p n
+  puts n
   }
-
 end
