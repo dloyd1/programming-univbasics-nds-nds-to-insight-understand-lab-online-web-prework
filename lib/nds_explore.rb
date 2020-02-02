@@ -9,6 +9,8 @@ end
 
 def print_first_directors_movie_titles
 new_array = Array.new 
-new_array = directors_database[0][:movies]
+  directors_database[0][:movies].each { |n|
+  new_array << n
+  }
 new_array
 end
